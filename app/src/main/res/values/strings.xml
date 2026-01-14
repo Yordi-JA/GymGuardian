@@ -1,0 +1,14 @@
+<resources>
+    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Gym Guardian</string>
+    <string name="tagline">Your training partner</string>
+    <string name="start_button">Start</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="change_language">Change Language</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="save">Save</string>
+    <string name="select_language">Select Language</string>
+</resources>
+
