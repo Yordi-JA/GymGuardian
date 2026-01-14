@@ -31,17 +31,15 @@ class LanguageSelectorActivity : AppCompatActivity() {
             changeLanguage("es")
         }
 
-        //back arrow
         val backArrow = findViewById<ImageView>(R.id.backArrow)
         backArrow.setOnClickListener {
-            finish() // Regresa a la actividad anterior (MainActivity)
+            finish()
         }
     }
 
     private fun changeLanguage(languageCode: String) {
         LocaleHelper.setLocale(this, languageCode)
 
-        // Restart the app to apply the change
         val intent = Intent(this, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)

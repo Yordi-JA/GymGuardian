@@ -1,6 +1,5 @@
 package com.example.gymguardian
 
-
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
